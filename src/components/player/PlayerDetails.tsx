@@ -1,5 +1,4 @@
-// import React from "react";
-// import { usePlayerContext } from "../../context/PlayerContext";
+
 import img1 from "../../assets/photo_12_2024-06-23_19-14-51.jpg";
 
 interface Album{
