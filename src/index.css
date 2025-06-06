@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hidescrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .range {
+ -webkit-appearance: none;
+    background-color: green;
+  }
+
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+  }
+}
