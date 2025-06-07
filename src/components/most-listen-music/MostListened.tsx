@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 // import  { useState } from "react";
 import img1 from "../../assets/photo_5_2024-06-23_19-14-50.jpg";
