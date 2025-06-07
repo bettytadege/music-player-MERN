@@ -1,5 +1,5 @@
-import React from 'react'
-import { OnClick ,IconsProps} from '../interface/interface'
+import { IconsProps } from "../interface/interface"
+
 
 function PlayIcon({onClick}:IconsProps) {
   return (
