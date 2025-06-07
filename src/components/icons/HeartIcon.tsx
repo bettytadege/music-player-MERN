@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IconsProps } from '../interface/interface'
 
 function HeartIcon({ className, onClick ,fill}:IconsProps ) {
