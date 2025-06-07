@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IconsProps } from '../interface/interface'
 function LibraryIcon({ className, onClick }:IconsProps) {
   return (
