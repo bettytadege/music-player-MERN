@@ -3,7 +3,7 @@ import PlayListItem from "./PlayListItem";
 import axios from "axios";
 import { useQuery } from "react-query";
 import { usePlayerContext } from "../../context/PlayerContext";
-import Loading from "../common/Loading";
+
 import { AlbumType } from "../interface/interface";
 import PlaylistSkeleton from "../../skeleton/PlaylistSkeleton";
 
@@ -23,7 +23,7 @@ function PlayList() {
     fetchData //query function
   );
   if (!data) {
-    // return <h1>data is undefined</h1>;
+    return null;
   }
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const playerContext = usePlayerContext();
