@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { IconsProps } from '../interface/interface'
 function HomeIcon({className,onClick}:IconsProps) {
   return (
