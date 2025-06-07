@@ -23,7 +23,7 @@ function PlayList() {
     fetchData //query function
   );
   if (!data) {
-    return null;
+    return <PlaylistSkeleton/> ;
   }
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const playerContext = usePlayerContext();
