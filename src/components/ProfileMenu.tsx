@@ -1,6 +1,6 @@
 
 import { MdOutlineClose } from 'react-icons/md'
-import profile from '..//assets/photo_2024-06-24_10-29-20.jpg'
+import profile from '../assets/photo_2024-06-24_10-29-20.jpg'
 import { usePlayerContext } from '../context/PlayerContext'
 
 function ProfileMenu() {
