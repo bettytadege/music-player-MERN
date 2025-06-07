@@ -5,9 +5,10 @@ import Play from '../icons/PlayIcon';
 import { AlbumType } from '../interface/interface';
 
 type TrackOfTheWeekProps = {
-  album: AlbumType
-  onClick: (event: React.MouseEvent< MouseEvent>) => void; 
-}
+  album: AlbumType;
+  onClick: (event: React.MouseEvent<SVGElement, MouseEvent>) => void;
+};
+
 
 function TrackListItem({album,onClick}:TrackOfTheWeekProps) {
   
@@ -29,10 +30,9 @@ function TrackListItem({album,onClick}:TrackOfTheWeekProps) {
           <p className=''>{album.liked}k</p>
           </div>
           <div className="flex items-center gap-3 border rounded-full border-[#333333] pl-3 ">
-            {/* <audio ref={audioRef} autoPlay={isPlaying}
-            src={track_url}></audio> */}
+           
             <HeartIcon  fill='#2BD268' />
-            {/* <HeartIcon  style={{fill:'#2BD268'}}/> */}
+           
             <div className="border border-white  rounded-full h-10 w-10 flex items-center justify-center">
             <Play onClick={onClick}/>
             </div>
