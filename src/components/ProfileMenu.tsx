@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { MdOutlineClose } from 'react-icons/md'
 import profile from '..//assets/photo_2024-06-24_10-29-20.jpg'
 import { usePlayerContext } from '../context/PlayerContext'
@@ -10,7 +10,7 @@ function ProfileMenu() {
       
   return (
     <>
-    {/* <Modal open={isShow} className={`w-full h-screen  inset-0 z-50`}> */}
+    
      <div className=" bg-black  w-full h-screen">
           <div className="flex justify-end p-6 fill-red-500" onClick={CancelMenu}>
           <MdOutlineClose size={30} color='white' />
@@ -70,7 +70,7 @@ function ProfileMenu() {
         </div>
         </div>
         </div>
-        {/* </Modal> */}
+       
     </>
   )
 }
