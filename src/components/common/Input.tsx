@@ -1,7 +1,7 @@
-// import React from 'react'
+
 type InputProps={
     text:string,
-    // className:string,
+   
     placeholder:string,
     onChange:(e: React.ChangeEvent<HTMLInputElement>)=>void
 }
