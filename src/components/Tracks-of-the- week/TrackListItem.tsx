@@ -1,4 +1,4 @@
-import React from 'react'
+
 import HeadSetIcon from '../icons/HeadSetIcon';
 import HeartIcon from '../icons/HeartIcon';
 import Play from '../icons/PlayIcon';
