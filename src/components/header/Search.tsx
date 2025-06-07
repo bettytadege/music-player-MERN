@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaRegCircle } from 'react-icons/fa';
 
 function Search() {
