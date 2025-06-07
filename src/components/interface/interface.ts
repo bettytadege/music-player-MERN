@@ -8,9 +8,9 @@ export interface OnClick {
   onClick: (event: React.MouseEvent<MouseEvent>) => void;
 }
 export interface IconsProps {
-  // fill: string;
-  className: string;
-  onClick: (event: React.MouseEvent<SVGElement, MouseEvent>) => void;
+  fill?: string;
+  className?: string;
+  onClick?: (event: React.MouseEvent<SVGElement, MouseEvent>) => void;
 }
 
 export type AlbumType = {
